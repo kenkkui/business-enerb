@@ -24,7 +24,7 @@ const Loading = ({ timeoutDone }: LoadingProps) => {
         animate(
           textElemRef.current,
           { y: distance, opacity: 0 },
-          { duration: 1.2, ease: "easeIn" }
+          { duration: 1.2, ease: [0.6, 0.04, 0.98, 0.34] }
         );
 
         animate(
