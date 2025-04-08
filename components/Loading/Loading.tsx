@@ -57,7 +57,7 @@ const Loading = ({ timeoutDone }: LoadingProps) => {
     if (timeoutDone) {
       animateText();
     }
-  }, [timeoutDone, animateText]);
+  }, [timeoutDone]);
 
   const loadingText = "loading" + text;
 
